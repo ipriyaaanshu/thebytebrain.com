@@ -26,8 +26,8 @@ const Header = () => {
     { label: 'Home', id: 'hero' },
     { label: 'About', id: 'about' },
     { label: 'Solutions', id: 'solutions' },
-    { label: 'Research & Products', id: 'research' },
-    { label: 'Press & Media', id: 'press' },
+    { label: 'Research', id: 'research' },
+    { label: 'Press', id: 'press' },
     { label: 'Insights', id: 'insights' },
     { label: 'Team', id: 'team' },
     { label: 'Careers', id: 'careers' },
@@ -75,7 +75,7 @@ const Header = () => {
             ))}
             <button 
               onClick={() => scrollToSection('contact')}
-              className="bg-[#00C9B1] text-white px-6 py-2 rounded-full font-medium hover:bg-[#00B5A3] transition-colors ml-4"
+              className="bg-[#00C9B1] text-white px-10 py-2 min-w-[320px] whitespace-nowrap rounded-full font-medium hover:bg-[#00B5A3] transition-colors ml-4"
             >
               Let's Discuss Your AI Vision
             </button>
