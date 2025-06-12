@@ -12,7 +12,7 @@ import {
  * ByteBrain – Insights & Thought‑Leadership blog roll
  * ──────────────────────────────────────────────────
  * Articles array populated with *actual* (or anonymised) press coverage,
- * product updates, and research posts as of June 2025.
+ * product updates, and research posts as of June 2025.
  */
 
 const Insights = () => {
@@ -21,7 +21,7 @@ const Insights = () => {
       title:
         'AI Simulation Platform Could Transform $350 B Clinical Trials Industry',
       excerpt:
-        'TheStreet covers MEDRAIL™, ByteBrain’s patent‑pending multi‑agent simulation engine that predicts safety risks and trims development costs.',
+        "TheStreet covers MEDRAIL™, ByteBrain's patent‑pending multi‑agent simulation engine that predicts safety risks and trims development costs.",
       author: 'TheStreet Financial Tech Times',
       date: '2025-06-09',
       category: 'Press Coverage',
@@ -30,7 +30,7 @@ const Insights = () => {
         'https://images.pexels.com/photos/7163956/pexels-photo-7163956.jpeg?auto=compress&cs=tinysrgb&w=600',
     },
     {
-      title: 'ByteBrain Ships RAG‑as‑a‑Service 1.0',
+      title: 'ByteBrain Ships RAG‑as‑a‑Service 1.0',
       excerpt:
         'Our multi‑tenant Retrieval‑Augmented Generation platform is now GA, delivering sub‑300 ms answers across 100k‑document corpora.',
       author: 'ByteBrain Engineering',
@@ -192,28 +192,6 @@ const Insights = () => {
               </div>
             </div>
           ))}
-        </div>
-
-        {/* Newsletter CTA */}
-        <div className="bg-gradient-to-r from-[#2D2868] to-[#4C46A0] rounded-2xl p-8 lg:p-12 text-white text-center">
-          <div className="flex items-center justify-center mb-6">
-            <Mail className="h-8 w-8 text-[#00C9B1] mr-3" />
-            <h3 className="text-2xl font-bold">Stay Ahead in AI</h3>
-          </div>
-          <p className="text-white/90 mb-8 max-w-2xl mx-auto text-lg">
-            Subscribe to ByteBrain Insights and get research findings, product
-            updates &amp; industry analysis delivered straight to your inbox.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 max-w-md mx-auto">
-            <input
-              type="email"
-              placeholder="Enter your email address"
-              className="flex-1 px-4 py-3 rounded-full text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-[#00C9B1]"
-            />
-            <button className="bg-[#00C9B1] text-white px-8 py-3 rounded-full font-semibold hover:bg-[#00B5A3] transition-colors whitespace-nowrap">
-              Subscribe Now
-            </button>
-          </div>
         </div>
       </div>
     </section>
