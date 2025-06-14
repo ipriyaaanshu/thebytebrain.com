@@ -39,7 +39,7 @@ const Press = () => {
     {
       type: 'Research Publication',
       title: 'MEDRAIL: MEDical Reinforcement-based Agentic Intelligence for Lifesciences',
-      publication: 'Journal of Medicine Internet Research Preprints',
+      publication: 'Journal of Medical Internet Research Preprints',
       date: '2025-06-08',
       description: 'Peer-reviewed publication detailing ByteBrain\'s research contributions to healthcare AI systems.',
       link: 'https://preprints.jmir.org/preprint/78741'
